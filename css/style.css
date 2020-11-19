@@ -4,6 +4,7 @@ h1{
     text-align: center;
     font-weight:50% ;
     
+    
 }
 
 .padre{
@@ -18,9 +19,12 @@ h1{
 
 h2{
     text-align: center;
+    
 }
 
 img{
     border-radius: 50%;
+    width: 100%;
+    box-shadow: 5px 5px 10px #424242;
 }
     
