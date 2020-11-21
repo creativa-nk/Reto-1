@@ -20,10 +20,12 @@ h1{
 .texto{
     color: white;
     text-align: center;
-    position:absolute;
-    top:25%;
-    left:12% ;
-    text-shadow: 3px 3px 3px #424242  ;
+    position:relative;
+    bottom: 55px;
+    left:0 ;
+    text-shadow: 3px 3px 3px #424242;
+   
+
     
    
 
