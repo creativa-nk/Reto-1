@@ -101,47 +101,47 @@ a{
   
 
 .a{
-   background: rgb(186, 247, 125);
-   border: 1px solid rgb(12, 160, 12);
+   background: rgba(240, 239, 239, 0.541);
+   border: 10px solid rgb(250, 6, 6);
    padding-top: 1%;
    border-radius: .9rem; /* bordes redondeados */
    margin:5px;
 }
 .b{
    background: rgb(125, 247, 241);
-   border: 1px solid rgb(25, 114, 173);
+   border: 10px solid rgb(25, 114, 173);
    padding-top: 1%;
    border-radius: 11rem; 
    margin:5px;
 }
 
 .c{
-   background: rgba(235, 184, 240, 0.829);
-   border: 1px solid rgb(169, 115, 201);
+   background: rgba(202, 243, 89, 0.651);
+   border: 10px solid rgb(255, 145, 0);
    padding-top: 1%;
-   border-radius: .5rem;
+   border-radius: 5rem;
    margin:5px;
 }
 .d{
    background: rgb(247, 235, 125);
-   border: 1px solid rgb(160, 133, 12);
+   border: 10px solid rgb(181, 209, 20);
    padding-top: 1%;
-   border-radius: .5rem;
+   border-radius: 8rem;
    margin:5px;
 }
 .e  {
-   background: rgb(106, 214, 164);
-   border: 1px solid rgb(12, 160, 135);
+   background: rgba(252, 252, 252, 0.788);
+   border: 10px solid rgb(253, 188, 9);
    padding-top: 1%;
-   border-radius: .5rem;
+   border-radius: 1rem;
    margin:5px;
 }  
 
 .f {
-    background: rgb(144, 248, 113);
-    border: 1px solid rgb(29, 160, 12);
+    background: rgb(184, 241, 166);
+    border: 10px solid rgb(252, 13, 5);
     padding-top: 1%;
-    border-radius: .5rem;
+    border-radius: 6rem;
     margin:5px;
  } 
  
@@ -151,7 +151,7 @@ a{
     color: rgb(71, 71, 71);
     text-emphasis: wrap;
     position: relative;
-    top:0.5em;
+    top:0.3em;
     font-size:2em ;
    
  
