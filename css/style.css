@@ -91,7 +91,7 @@ a{
     width: 80vw;
     position:relative;
     top:30px ;
-    left: 200px;
+    left: 7em;
     grid-template-columns: 3fr 2fr 2fr ;
     grid-template-rows: 2fr 1fr;
     grid-column-gap: 40px;
@@ -204,6 +204,20 @@ a{
     .cerebro{
         width: 75vw;
     }
+    .grid{
+        grid-template-columns: 3fr 2fr ;
+        grid-template-rows: 2fr 1fr 2fr;
+        left: 0.5em;
+        grid-column-gap: 20px;
+    }
 }
 
-@media (min-width:320px)
+@media (max-width:320px)
+{
+    .grid{
+        grid-template-columns: 3fr;
+        grid-template-rows: 2fr 1fr 2fr 1fr;
+        left: 0.5em;
+    }
+
+}
