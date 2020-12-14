@@ -25,8 +25,6 @@ a{
     text-decoration: none;
 
 } 
-
-
 .padre{
     display:flex; 
     flex-direction:row;
@@ -122,6 +120,15 @@ a{
    border-radius: 5rem;
    margin:5px;
 }
+ .c:hover{
+    background: rgba(146, 161, 104, 0.651);   
+} 
+.c a p b:hover{
+    color: white;
+}
+.grid p b {
+    font-size:1.5em ;
+}
 .d{
    background: rgb(247, 235, 125);
    border: 10px solid rgb(181, 209, 20);
@@ -129,13 +136,20 @@ a{
    border-radius: 8rem;
    margin:5px;
 }
+
 .e  {
    background: rgba(252, 252, 252, 0.788);
    border: 10px solid rgb(253, 188, 9);
    padding-top: 1%;
    border-radius: 1rem;
    margin:5px;
-}  
+} 
+.d:hover{
+    background: rgba(146, 161, 104, 0.651);   
+}
+.d a p b:hover{
+    color: white;
+} 
 
 .f {
     background: rgb(184, 241, 166);
@@ -210,14 +224,21 @@ a{
         left: 0.5em;
         grid-column-gap: 20px;
     }
+    .grid p b {
+        font-size:1.5em ;
+    }
+
 }
 
-@media (max-width:320px)
+@media (max-width:376px)
 {
     .grid{
         grid-template-columns: 3fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
         left: 0.5em;
+    }
+    .grid p b {
+        font-size:1.2em ;
     }
 
 }
