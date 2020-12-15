@@ -2,7 +2,8 @@ h1{
     margin-top: 10%;
     font-family: 'Caveat', cursive;
     text-align: center;
-    font-size:2.5em ;   
+    font-size: 6em;
+    
 }
 body{
     background-color: rgba(46, 150, 150, 0.541);
@@ -46,7 +47,7 @@ a{
     color: white;
     text-align: center;
     position:relative;
-    bottom: 66px;
+    bottom: 82px;
     left:0 ;
     text-shadow: 3px 3px 3px #424242;
     font-family:'Caveat', cursive;
@@ -63,17 +64,8 @@ a{
     border-radius: 50%;
     width: 100%;
     box-shadow: 5px 5px 10px #424242;
-   }
-    /* .hijo3{
-    filter: drop-shadow(0 2px 10px rgba(0,0,0,0.7));
-    background: none repeat scroll 50% 50% ; */
-
-
-.hobby,.ciudad,.brooklyn{
-    /* display:inline-block; */
-    
-    
 }
+   
 .cerebro{
     height:auto;
     align-items: center;
@@ -96,8 +88,6 @@ a{
     grid-row-gap: 10px;
 }  
    
-  
-
 .a{
    background: rgba(240, 239, 239, 0.541);
    border: 10px solid rgb(250, 6, 6);
@@ -120,15 +110,19 @@ a{
    border-radius: 5rem;
    margin:5px;
 }
- .c:hover{
+
+.c:hover{
     background: rgba(146, 161, 104, 0.651);   
 } 
+
 .c a p b:hover{
     color: white;
 }
+
 .grid p b {
     font-size:1.5em ;
 }
+
 .d{
    background: rgb(247, 235, 125);
    border: 10px solid rgb(181, 209, 20);
@@ -166,10 +160,7 @@ a{
     text-emphasis: wrap;
     position: relative;
     top:0.3em;
-    font-size:2em ;
-   
- 
-   
+    font-size:2em ;  
  }
 
 
@@ -177,18 +168,19 @@ a{
 { 
    
     .padre{
-        display: flex;
-        flex-direction: column;  
+         display: flex;
+         flex-direction: column;  
     }
-
-
-     .intereses{
-            display: flex;
-            flex-direction:column;
-            justify-content: center;      
+    .intereses{
+         display: flex;
+         flex-direction:column;
+         justify-content: center;      
      }
     .cerebro{
-        width: 75vw;
+         width: 75vw;
+    }
+    h1{
+         font-size: 4.5em ;   
     }
 }
 
@@ -196,49 +188,58 @@ a{
 { 
    
     .padre{
-        display: flex;
-        flex-direction: column;
-        justify-content:space-around; 
-        width: 40%;
-        height: 30%;
+         display: flex;
+         flex-direction: column;
     }
     
     .cite{
-        margin-top: 1%;
-        font-size: 1.5em;
-        font-display: center;
+         margin-top: 1%;
+         font-size: 1.5em;
+         font-display: center;
     }
     .intereses{
-        display: flex;
-        flex-direction: column;
-        justify-content:center; 
-        width: 25%;
-        height: 15%;
+         display: flex;
+         flex-direction: column;
+         justify-content:center; 
+         width: 25%;
+         height: 15%;
     }
     .cerebro{
         width: 75vw;
     }
     .grid{
-        grid-template-columns: 3fr 2fr ;
-        grid-template-rows: 2fr 1fr 2fr;
-        left: 0.5em;
-        grid-column-gap: 20px;
+         grid-template-columns: 3fr 2fr ;
+         grid-template-rows: 2fr 1fr 2fr;
+         left: 0.5em;
+         grid-column-gap: 20px;
     }
     .grid p b {
-        font-size:1.5em ;
+         font-size: ;
     }
-
+    h1{
+         font-size: 3.5em;   
+    }
+ 
 }
 
 @media (max-width:376px)
 {
     .grid{
-        grid-template-columns: 3fr;
-        grid-template-rows: 2fr 1fr 2fr 1fr;
-        left: 0.5em;
+         grid-template-columns: 3fr;
+         grid-template-rows: 2fr 1fr 2fr 1fr;
+         left: 0.5em;
     }
     .grid p b {
-        font-size:1.2em ;
+         font-size:1.2em ;
     }
-
+    h1{
+         font-size:2.5em ;   
+    }
+    .padre{
+         display: flex;
+         flex-direction: column;
+    }
+    h1{
+         font-size: 2.5em;   
+    }
 }
