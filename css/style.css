@@ -83,7 +83,7 @@ a{
     top:30px ;
     left: 7em;
     grid-template-columns: 3fr 2fr 2fr ;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-column-gap: 40px;
     grid-row-gap: 10px;
 }  
@@ -92,15 +92,21 @@ a{
    background: rgba(240, 239, 239, 0.541);
    border: 10px solid rgb(250, 6, 6);
    padding-top: 1%;
-   border-radius: .9rem; /* bordes redondeados */
+   border-radius: 1rem; /* bordes redondeados */
    margin:5px;
 }
 .b{
    background: rgb(125, 247, 241);
    border: 10px solid rgb(25, 114, 173);
    padding-top: 1%;
-   border-radius: 11rem; 
+   border-radius: 5rem; 
    margin:5px;
+}
+.b:hover{
+    background:rgba(141, 188, 219, 0.623) ;   
+}
+.b a p b:hover{
+    color: white;
 }
 
 .c{
@@ -123,11 +129,11 @@ a{
     font-size:1.5em ;
 }
 
-.d{
+.f{
    background: rgb(247, 235, 125);
    border: 10px solid rgb(181, 209, 20);
    padding-top: 1%;
-   border-radius: 8rem;
+   border-radius: 1rem;
    margin:5px;
 }
 
@@ -135,21 +141,21 @@ a{
    background: rgba(252, 252, 252, 0.788);
    border: 10px solid rgb(253, 188, 9);
    padding-top: 1%;
-   border-radius: 1rem;
+   border-radius: 5rem;
    margin:5px;
 } 
-.d:hover{
+.f:hover{
     background: rgba(146, 161, 104, 0.651);   
 }
-.d a p b:hover{
+.f a p b:hover{
     color: white;
 } 
 
-.f {
+.d {
     background: rgb(184, 241, 166);
-    border: 10px solid rgb(252, 13, 5);
+    border: 10px solid rgba(50, 160, 59, 0.699);
     padding-top: 1%;
-    border-radius: 6rem;
+    border-radius: 4em;
     margin:5px;
  } 
  
@@ -157,10 +163,12 @@ a{
     text-align: center;
     font-family:'Caveat', cursive;
     color: rgb(71, 71, 71);
-    text-emphasis: wrap;
     position: relative;
-    top:0.3em;
-    font-size:2em ;  
+    top:0.2em;
+    bottom: 0.5em;
+    font-size:2em ;
+    word-spacing:0.2em ; 
+    margin: 0.2em; 
  }
 
 
