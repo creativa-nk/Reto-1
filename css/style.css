@@ -60,7 +60,7 @@ a{
     text-shadow: 3px 3px 3px #424242;
     font-family:'Caveat', cursive;
 }
-    .entrada{
+.entrada{
     border-radius: 50%;
     width: 100%;
     box-shadow: 5px 5px 10px #424242;
@@ -86,30 +86,33 @@ a{
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 40px;
     grid-row-gap: 10px;
+}
+.grid p b {
+    font-size:1.5em ;
 }  
    
-.a{
+.yo{
    background: rgba(240, 239, 239, 0.541);
    border: 10px solid rgb(250, 6, 6);
    padding-top: 1%;
    border-radius: 1rem; /* bordes redondeados */
    margin:5px;
 }
-.b{
+.unagi{
    background: rgb(125, 247, 241);
    border: 10px solid rgb(25, 114, 173);
    padding-top: 1%;
    border-radius: 5rem; 
    margin:5px;
 }
-.b:hover{
+.unagi:hover{
     background:rgba(141, 188, 219, 0.623) ;   
 }
-.b a p b:hover{
+.unagi a p b:hover{
     color: white;
 }
 
-.c{
+.ciudad{
    background: rgba(202, 243, 89, 0.651);
    border: 10px solid rgb(255, 145, 0);
    padding-top: 1%;
@@ -117,49 +120,47 @@ a{
    margin:5px;
 }
 
-.c:hover{
+.ciudad:hover{
     background: rgba(146, 161, 104, 0.651);   
 } 
 
-.c a p b:hover{
+.ciudad a p b:hover{
     color: white;
 }
 
-.grid p b {
-    font-size:1.5em ;
-}
-
-.f{
-   background: rgb(247, 235, 125);
-   border: 10px solid rgb(181, 209, 20);
-   padding-top: 1%;
-   border-radius: 1rem;
-   margin:5px;
-}
-
-.e  {
-   background: rgba(252, 252, 252, 0.788);
-   border: 10px solid rgb(253, 188, 9);
-   padding-top: 1%;
-   border-radius: 5rem;
-   margin:5px;
-} 
-.f:hover{
-    background: rgba(146, 161, 104, 0.651);   
-}
-.f a p b:hover{
-    color: white;
-} 
-
-.d {
+.idiomas {
     background: rgb(184, 241, 166);
     border: 10px solid rgba(50, 160, 59, 0.699);
     padding-top: 1%;
     border-radius: 4em;
     margin:5px;
- } 
- 
-  p{
+}
+
+.humor  {
+   background: rgba(252, 252, 252, 0.788);
+   border: 10px solid rgb(253, 188, 9);
+   padding-top: 1%;
+   border-radius: 5rem;
+   margin:5px;
+}
+
+.creativa{
+    background: rgb(247, 235, 125);
+    border: 10px solid rgb(181, 209, 20);
+    padding-top: 1%;
+    border-radius: 1rem;
+    margin:5px;
+}
+
+.creativa:hover{
+    background: rgba(146, 161, 104, 0.651);   
+}
+
+.creativa a p b:hover{
+    color: white;
+} 
+
+p{
     text-align: center;
     font-family:'Caveat', cursive;
     color: rgb(71, 71, 71);
@@ -169,7 +170,7 @@ a{
     font-size:2em ;
     word-spacing:0.2em ; 
     margin: 0.2em; 
- }
+}
 
 
 @media(min-width:540px) and (max-width:1071px)
@@ -194,7 +195,6 @@ a{
 
 @media (max-width:710px)
 { 
-   
     .padre{
          display: flex;
          flex-direction: column;
