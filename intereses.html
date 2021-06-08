@@ -18,6 +18,35 @@
              </ul>
          
     </nav>
-    <img class="cerebro" src="./img/cerebro2.png" alt="ideas">
+    <!-- <img class="cerebro" src="./img/cerebro2.png" alt="ideas"> -->
+    <div class="cerebro">
+        <img src="./img/cerebro.png" usemap="#image-map">
+
+        <map name="image-map">
+            <area target="" alt="unagi" title="unagi" href="https://www.youtube.com/watch?v=4VuqQ4TS8OY" coords="269,142,237,164,231,183,209,199,183,222,157,253,168,276,193,287,222,290,237,338,392,303,373,238,356,218,308,206,302,173,300,155,290,135" shape="poly">
+            <area target="" alt="lviv" title="lviv" href="https://patrimoniodelahumanidadporanka.blogspot.com/2017/02/conjunto-del-centro-historico-de.html" coords="821,156,818,233,829,272,863,292,901,285,922,256,924,220,922,175,918,159" shape="poly">
+            <area target="" alt="creativa" title="creativa" href="https://www.instagram.com/creativa.nk/" coords="938,537,940,453,1071,439,1076,535,989,537,938,539,938,537" shape="poly">
+            <area target="" alt="hakuna_matata" title="hakuna_matata" href="./Hakuna-Matata.mp3" coords="971,685,989,634,979,610,997,577,1075,584,1084,632,1050,649,1017,671,994,689,983,691" shape="poly">
+            <area target="" alt="humor" title="humor" href="./img/intereses 1.jpg" coords="668,774,839,990" shape="rect">
+        </map>
+
+    </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-imagemapster@1.2.10/dist/jquery.imagemapster.min.js"></script>
+<script src="./js/jquery.rwdImageMaps.min.js"></script>
+<script >
+    
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+	
+	$('area').on('click', function() {
+		alert($(this).attr('alt') + ' clicked');
+	});
+});
+
+</script>
+
 </body>
+
 </html>

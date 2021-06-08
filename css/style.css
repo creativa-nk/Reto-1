@@ -7,6 +7,7 @@ h1{
 }
 body{
     background-color: rgba(46, 150, 150, 0.541);
+    text-align: center;
 }
 
 .menu{
@@ -67,13 +68,17 @@ a{
 }
    
 .cerebro{
-    height:auto;
-    align-items: center;
-    width: 45vw;
-    margin-left:auto;
-    margin-right: auto;
-    display: block;
+    /* background: #424242; */
+    margin: 0 auto;
+    width: 90%;
 }
+
+img[usemap] {
+	border: none;
+	height: auto;
+    max-width: 100%;
+	width: auto;
+} 
 
 .grid {
     display:grid;
