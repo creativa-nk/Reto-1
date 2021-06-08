@@ -8,28 +8,30 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- !!!IMPORTANTE!!!!  animacion fotos-->
+
     <title>Reto 1</title>
 </head>
 <body>
     <header>
-        <h1>Hola mundo
-        </h1>
+        <h1 data-aos='fade-down'>Hola mundo </h1>
     </header>
     <nav class="menu_index">
         <div class="padre">
-            <div class="hijo1"> 
+            <div class="hijo 1"> 
                 <a href="quien_soy.html">
                     <img class="entrada" src="img/soy yo.jpg" alt="soy yo"></a>
                          <div class="texto"><h2> Quien soy</h2>
                          </div>
             </div>
-            <div class="hijo2">
+            <div class="hijo 2">
                  <a href="intereses.html">
                      <img class="entrada" src="img/intereses.jpg" alt="intereses"></a> 
                          <div class="texto"> <h2>Intereses</h2>
                         </div>
             </div>
-            <div class="hijo3"> 
+            <div class="hijo 3"> 
                  <a href="mailto:nadiya121@yandex.ru?subject=mi%20primera%20web">
                          <img class="entrada" src="img/contacto1.jpg" alt="contacto"></a>
                              <div class="texto">  <h2>Contacto</h2>
@@ -38,7 +40,13 @@
         </div>
     </nav>
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- -------IMPORTANTE!!!!!-- animacion----- -->
+<script>
+  AOS.init({
+      offset:200,
+      duration:1000         /*  empieza cuando estamos haciendo scroll 400px, y dura 1s */
+  });
+</script>
     
 </body>
 </html>
